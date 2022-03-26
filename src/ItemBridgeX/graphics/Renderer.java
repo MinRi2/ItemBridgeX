@@ -59,12 +59,15 @@ public class Renderer{
     public static void drawBridgeItem(ItemBridgeBuild bridge){
         // Draw each item the bridge have
         Draw.color(Color.white, 0.8f);
-        int amount = 0;
-        for(int iid = 0; iid < bridge.items.length(); iid++){
-            if(bridge.items.get(iid) > 0){
-                for(int itemid = 1; itemid <= bridge.items.get(iid); itemid ++){
-                    Draw.rect(content.item(iid).uiIcon, bridge.x, bridge.y - tilesize/2f + 1f + 0.6f * (float)amount, 4f, 4f);
-                    amount++;
+
+        if(bridge.items != null){
+            int amount = 0;
+            for(int iid = 0; iid < bridge.items.length(); iid++){
+                if(bridge.items.get(iid) > 0){
+                    for(int itemid = 1; itemid <= bridge.items.get(iid); itemid++){
+                        Draw.rect(content.item(iid).uiIcon, bridge.x, bridge.y - tilesize / 2f + 1f + 0.6f * (float)amount, 4f, 4f);
+                        amount++;
+                    }
                 }
             }
         }
