@@ -1,23 +1,25 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "ItemBridgeX"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "item-bridge-X"
 
 #your name
-author: "You"
+author: "miner"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "ItemBridgeX.ItemBridgeX"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "This a mod that can show the hidden item of the item bridge."
 
 #the mod version
 version: 1.0
 
 #the minimum game build required to run this mod
-minGameVersion: 129
+minGameVersion: 135
 
 #this is a java mod
 java: true
+
+hidden: true
