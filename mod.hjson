@@ -14,7 +14,7 @@ main: "ItemBridgeX.ItemBridgeX"
 description: "This a mod that can show the hidden item of the item bridge."
 
 #the mod version
-version: 1.0
+version: 2.0
 
 #the minimum game build required to run this mod
 minGameVersion: 136
