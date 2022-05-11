@@ -28,8 +28,7 @@ allprojects{
 }
 
 dependencies{
-//    compileOnly "com.github.Anuken.Arc:arc-core:$mindustryVersion"
-    compileOnly files("libs/Mindustry.jar")
+    implementation 'com.github.Anuken.MindustryJitpack:core:2f8b009dbb'
     compileOnly "com.github.Anuken.Mindustry:core:$mindustryVersion"
     annotationProcessor "com.github.Anuken:jabel:$jabelVersion"
 }
