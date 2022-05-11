@@ -28,7 +28,7 @@ allprojects{
 }
 
 dependencies{
-    implementation 'com.github.Anuken.MindustryJitpack:core:2f8b009dbb'
+    compileOnly 'com.github.Anuken.MindustryJitpack:core:2f8b009dbb'
     compileOnly "com.github.Anuken.Mindustry:core:$mindustryVersion"
     annotationProcessor "com.github.Anuken:jabel:$jabelVersion"
 }
