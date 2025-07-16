@@ -2,10 +2,10 @@
 displayName: "ItemBridgeX"
 
 #the internal name of your mod
-name: "item-bridge-X"
+name: "item-bridge-x"
 
 #your name
-author: "miner"
+author: "minRi2"
 
 #the fully qualified main class of the mod
 main: "ItemBridgeX.ItemBridgeX"
@@ -14,10 +14,10 @@ main: "ItemBridgeX.ItemBridgeX"
 description: "This a mod that can show the hidden item of the item bridge."
 
 #the mod version
-version: 2.5.0
+version: 2.6
 
 #the minimum game build required to run this mod
-minGameVersion: 136
+minGameVersion: 149
 
 #this is a java mod
 java: true
